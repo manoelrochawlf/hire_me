@@ -1,0 +1,8 @@
+{
+    "editor.tabSize": 2, // Define o tamanho da tabulação como 2 espaços
+    "editor.formatOnSave": true, // Formata automaticamente o código ao salvar
+    "eslint.validate": [ "javascript", "javascriptreact", "typescript", "typescriptreact" ], // Configura o ESLint para validar arquivos JS e TS
+    "prettier.singleQuote": true, // Define que as aspas simples devem ser usadas para strings
+    "prettier.trailingComma": "all", // Define que deve haver vírgula no final dos objetos e arrays
+    "prettier.arrowParens": "avoid" // Define que as setas de função com apenas um parâmetro não devem ter parênteses
+  }

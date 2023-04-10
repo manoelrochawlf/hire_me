@@ -63,7 +63,7 @@ display: none;
     position: absolute;
     top: 2rem;
     right: 0;
-    background: white;
+    background: aliceblue;
     border-radius: 5px;
     margin-top: 1.5rem;
     margin-right: 0.3rem;
@@ -78,7 +78,6 @@ export const DropdownItem = styled.h1`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   color: #e88f10;
-  background-color: white;
   cursor: pointer;
   padding: 0.8rem;
   :hover {

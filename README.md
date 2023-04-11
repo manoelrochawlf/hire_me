@@ -1,7 +1,7 @@
-##Descrição
+## Descrição
 Este projeto tem como objetivo ...
 
-##Instalação
+## Instalação
 Para instalar o projeto, siga os seguintes passos:
 
 Clone este repositório para o seu computador:

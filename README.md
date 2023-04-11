@@ -22,6 +22,3 @@
 ## Contribuição
 - Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou pull request.
 
-## Licença
-- Este projeto está sob a licença LICENSE_NAME.Manoel Rocha
-

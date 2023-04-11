@@ -1,5 +1,5 @@
 ## Descrição
-- Este projeto é um teste técnico para a empresa wises em que fui solicitado fazer um cabeçalho, um conteúdo e um rodapé, também fui solicitado neste técnico a fazer uma aplicação responsiva e com menu de navegação e um formulário de contato.
+- Este projeto é um teste técnico em que fui solicitado fazer um cabeçalho, um conteúdo e um rodapé, também fui solicitado neste técnico a fazer uma aplicação responsiva, com menu de navegação e um formulário de contato.
 
 ## Instalação
 - Para instalar o projeto, siga os seguintes passos:

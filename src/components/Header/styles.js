@@ -31,6 +31,7 @@ export const Contact = styled.h1`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     color: #e88f10;
+    margin-left: auto;
     @media (max-width: 768px) {
     display: none;
     }
@@ -40,7 +41,8 @@ export const MobContainer = styled.div`
     display: none;
     @media (max-width: 768px) {
         display: block;
-        margin-top: 0.8rem; 
+        margin-top: 0.8rem;
+        margin-left: auto ;
         img{
             width: 1.8rem;
             height: 1.8rem;

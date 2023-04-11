@@ -26,8 +26,8 @@ const Header = () => {
               <Link to="/skills">
                 <Item>skills</Item>
               </Link>
-              <Link to="feedbacks">
-                <Item>feedbacks</Item>
+              <Link to="/achievements">
+                <Item>conquistas</Item>
               </Link>
             </Items>
            <MobContainer onClick={handleDropdownToggle} className={pizzaClassName}>
@@ -41,15 +41,17 @@ const Header = () => {
           <Link to="/skills">
           <DropdownItem>skills</DropdownItem>
           </Link>
-          <Link to="/feedbacks">
-          <DropdownItem>feedbacks</DropdownItem>
+          <Link to="/achievements">
+          <DropdownItem>conquistas</DropdownItem>
           </Link>
-          <Link>
+          <Link to="/talktome">
           <DropdownItem>fale comigo :)</DropdownItem>
           </Link>   
         </DropdownContainer>
       }
-           <Contact>fale comigo :)</Contact>
+        <Link to="/talktome">
+          <Contact>fale comigo :)</Contact>
+        </Link>
         </HeaderContainer>
      );
 }

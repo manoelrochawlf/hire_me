@@ -68,9 +68,6 @@ export const LeadText = styled.h1`
     width: 30rem;
     padding: 0rem 4rem;
   }
-  @media (max-width: 468px) {
-
-  }
 `
 
 export const CodeIcon = styled.img`

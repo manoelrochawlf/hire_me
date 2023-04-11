@@ -16,7 +16,7 @@
 ## Tecnologias utilizadas
 - React
 - Styled Components
-- Tecnologias 
+- Javascript
 - CSS
 - HTML
 ## Contribuição

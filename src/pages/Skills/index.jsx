@@ -9,7 +9,7 @@ const Skills = () => {
                 <Title>Linguagens/Ferramentas que utilizo no front</Title>
                 <GridTools>
                     {frontTools.map((front) => (
-                        <CardTools>
+                        <CardTools key={front.name}>
                             <NameTools>{front.name}</NameTools>
                             <IconTools src={front.icon} alt="icon"></IconTools>
                         </CardTools>
@@ -19,10 +19,10 @@ const Skills = () => {
             <ColumnTools>
                 <Title>Linguagens/Ferramentas que utilizo no back</Title>
                 <GridTools>
-                    {backTools.map((front) => (
-                        <CardTools>
-                            <NameTools>{front.name}</NameTools>
-                            <IconTools src={front.icon} alt="icon"></IconTools>
+                    {backTools.map((back) => (
+                        <CardTools key={back.name}>
+                            <NameTools>{back.name}</NameTools>
+                            <IconTools src={back.icon} alt="icon"></IconTools>
                         </CardTools>
                     ))}
                 </GridTools>

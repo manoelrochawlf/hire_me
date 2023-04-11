@@ -3,8 +3,6 @@ import { HeaderContainer, Contact, Item, Items, Logo, MobContainer, DropdownCont
 import pizza from "../../assets/icons/pizza.png"
 import { Link } from "react-router-dom";
 
-console.log(pizza);
-
 const Header = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 

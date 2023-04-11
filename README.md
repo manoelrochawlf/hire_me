@@ -12,11 +12,11 @@
 ## Instale as dependências:
 - yarn install
 ## Inicie o projeto:
-- yarn start
+- yarn dev
 ## Tecnologias utilizadas
 - React
 - Styled Components
-- Tecnologias 
+- Javascript
 - CSS
 - HTML
 ## Contribuição

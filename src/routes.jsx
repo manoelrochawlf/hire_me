@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Skills from './pages/Skills';
-import Feedbacks from './pages/Feedbacks';
+import Achievements from './pages/Achievements';
 
 const Router = () => {
     return (
@@ -11,7 +11,7 @@ const Router = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path="/feedbacks" element={<Feedbacks />} />
+            <Route path="/achievements" element={<Achievements />} />
         </Routes>
     );
 }

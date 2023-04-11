@@ -17,7 +17,7 @@ yarn start
 - React
 - Styled Components
 - CSS
-HTML
+- HTML
 ## Contribuição
 - Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou pull request.
 

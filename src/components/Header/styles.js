@@ -8,6 +8,9 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0rem 2rem;
+  @media (max-width: 450px) {
+
+}
 `
 export const Logo = styled.h1`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,6 +23,7 @@ export const Items = styled.div`
     width: 25rem;
     @media (max-width: 768px) {
         display: none;
+        width: 100%;
     }
 `
 export const Item = styled.h1`
@@ -33,7 +37,7 @@ export const Contact = styled.h1`
     color: #e88f10;
     margin-left: auto;
     @media (max-width: 768px) {
-    display: none;
+        display: none;
     }
 `
 
@@ -53,7 +57,11 @@ export const MobContainer = styled.div`
             border-radius: 50%;
             padding: 0.1rem;
         }
-        
+        @media (max-width: 400px) {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+    }
   }
 `
 

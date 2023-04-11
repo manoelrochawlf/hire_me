@@ -34,24 +34,11 @@ export const Container = styled.div`
   @media (max-width: 1200px) {
     flex-direction: column;
     width: 100%;
-    height: 35rem;
+    height: 100vh;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
   }
-  @media (max-width: 768px) {
-    flex-direction: column;
-    width: 100%;
-    height: 30rem;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  @media (max-width: 468px) {
-    flex-direction: column;
-    width: 100%;
-    height: 30rem;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+
   
 `
 export const LeadText = styled.h1`
@@ -63,7 +50,7 @@ export const LeadText = styled.h1`
     @media (max-width: 1200px) {
     font-size: 2.5rem;
   }
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
     font-size: 1.5rem;
     width: 30rem;
     padding: 0rem 4rem;
@@ -74,11 +61,11 @@ export const CodeIcon = styled.img`
     width: 20rem;
     height: 20rem;
     @media (max-width: 1200px) {
-    width: 15rem;
-    height: 15rem;
+    width: 40%;
+    height: 40%;
   }
-    @media (max-width: 768px) {
-        width: 10rem;
-        height: 10rem;
+    @media (max-width: 600px) {
+      width: 25%;
+      height: 25%;
   }
 `

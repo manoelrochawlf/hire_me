@@ -42,7 +42,7 @@ export const Container = styled.div`
   
 `
 export const LeadText = styled.h1`
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3.5rem;
     color: #f69203;
     word-break: break-word;

@@ -6,15 +6,18 @@
 
 ## Clone este repositório para o seu computador:
 - git clone https://github.com/manoelrochawlf/hire_me.git
+
 ## Navegue até o diretório do projeto:
 - cd nome-do-repositorio
 ## Instale as dependências:
 - yarn install
 ## Inicie o projeto:
-yarn start
+
+- yarn start
 ## Tecnologias utilizadas
 - React
 - Styled Components
+- Tecnologias 
 - CSS
 - HTML
 ## Contribuição

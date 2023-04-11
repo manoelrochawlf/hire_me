@@ -12,7 +12,6 @@
 ## Instale as dependências:
 - yarn install
 ## Inicie o projeto:
-
 - yarn start
 ## Tecnologias utilizadas
 - React
